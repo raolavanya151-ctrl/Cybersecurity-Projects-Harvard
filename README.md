@@ -3,3 +3,11 @@ Cybersecurity projects and practical exercises demonstrating knowledge of networ
 ## Certificate
 ![CS50 Certificate](IMG_2904.jpg)
 
+## Projects
+
+### Password Strength Checker (Python)
+- Checks if password is strong or weak
+- Uses regex for validation
+- Conditions:
+  - Minimum length
+  - Uppercase, lowercase, numbers, special characters
