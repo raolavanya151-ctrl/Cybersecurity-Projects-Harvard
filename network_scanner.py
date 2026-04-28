@@ -1,29 +1,25 @@
----
+import socket
 
-### 🌐 Network Scanner (Python)
+target = input("Enter target IP or domain: ")
 
-A multithreaded cybersecurity tool that scans a target system to identify open ports.
+try:
+    target_ip = socket.gethostbyname(target)
+except socket.gaierror:
+    print("Invalid target")
+    exit()
 
-**Features:**
-- Scans ports 1–1024
-- Detects open ports
-- Supports both IP address and domain input
-- Fast scanning using multithreading
+print(f"\nScanning target: {target_ip}")
+print("Scanning ports 1–1024...\n")
 
-**Tech Used:**
-- Python
-- socket module
-- threading module
+for port in range(1, 1025):
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    socket.setdefaulttimeout(0.5)
 
-**Example Output:**
-```text
-Enter target IP or domain: google.com
+    result = sock.connect_ex((target_ip, port))
 
-Scanning target: 142.250.xxx.xxx
-Scanning ports 1–1024...
+    if result == 0:
+        print(f"Port {port}: OPEN")
 
-Port 80: OPEN
-Port 443: OPEN
+    sock.close()
 
-Scanning complete.
-```
+print("\nScanning complete.")
