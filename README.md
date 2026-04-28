@@ -19,3 +19,10 @@ A simple cybersecurity tool that checks whether a password is strong or weak bas
 **Tech Used:**
 - Python
 - Regular Expressions (re module)
+
+**Example Output:**
+Enter password: Hello123
+Weak: add special character
+
+Enter password: Hello@123
+Strong password
