@@ -65,5 +65,29 @@ python brute_force_simulator.py
 ```
 
 ### 💡 Requirements
+### 🌐 Network Scanner (Python)
+
+A basic cybersecurity tool that scans a target system to identify open ports.
+
+**Features:**
+- 🔍 Scans ports 1–1024
+- 🌐 Supports IP address and domain input
+- ⚡ Detects open ports
+
+**Tech Used:**
+- Python
+- Socket module
+
+**Example Output:**
+```text
+Enter target IP or domain: google.com
+
+Scanning target: 142.250.xxx.xxx
+Scanning ports 1–1024...
+
+Port 80: OPEN
+Port 443: OPEN
+
+Scanning complete.
 - Python 3.x installed  
 - Basic knowledge of running Python scripts (optional)
