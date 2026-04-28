@@ -43,7 +43,7 @@ Tech Used:
 - Random module
 - String module
 
-Example Output:
+### Example Output:
 ```
 Enter password length: 12
 Generated Password: A@7kL#9xP!2q
@@ -61,12 +61,15 @@ Features:
 Tech Used:
 - Python
 - Time module
-
-Example Output:
-
+- 
+### Example Output:
+```
 Trying password: 123456
 Access Denied
+
 Trying password: password
 Access Denied
+
 Trying password: admin123
 Access Granted!
+```
