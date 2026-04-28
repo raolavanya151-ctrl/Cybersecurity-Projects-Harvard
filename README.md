@@ -95,3 +95,20 @@ Port 443: OPEN
 
 Scanning complete.
 ```
+
+---
+
+### 🌐 Network Scanner (Advanced - Multithreaded)
+
+A high-performance cybersecurity tool that scans a target system using multithreading for faster results.
+
+**Features:**
+- ⚡ Multithreaded port scanning
+- 🔍 Scans ports 1–1024
+- 🌐 Supports both IP address and domain input
+- 🚀 Faster and more efficient than basic scanner
+
+**Tech Used:**
+- Python
+- Socket module
+- Threading module
