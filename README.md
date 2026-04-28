@@ -44,6 +44,7 @@ Tech Used:
 - String module
 
 Example Output:
-
-Enter password length: 12  
+```
+Enter password length: 12
 Generated Password: A@7kL#9xP!2q
+```
