@@ -27,3 +27,34 @@ Weak: add special character
 
 Enter password: Hello@123
 Strong password
+
+
+---
+
+## 🚀 How to Run
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/raolavanya151-ctrl/Cybersecurity-Projects-Harvard.git
+cd Cybersecurity-Projects-Harvard
+```
+
+### 2️⃣ Run the projects
+
+#### 🔐 Password Strength Checker
+```bash
+python password_checker.py
+```
+
+#### 🔐 Password Generator
+```bash
+python password_generator.py
+```
+
+#### 🧠 Login Brute Force Simulator
+```bash
+python brute_force_simulator.py
+```
+
+### 💡 Requirements
+- Python 3.x installed
