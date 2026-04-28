@@ -3,6 +3,13 @@ Cybersecurity projects and practical exercises demonstrating knowledge of networ
 ## Certificate
 ![CS50 Certificate](IMG_2904.jpg)
 
+## 🧠 Skills Demonstrated
+
+- 🔐 Password Security & Validation  
+- 🧠 Understanding of Brute Force Attacks  
+- ⚙️ Python Scripting for Cybersecurity  
+- 🛡️ Basic Ethical Hacking Concepts  
+
 ## Projects
 
 ### 🔐 Password Strength Checker (Python)
