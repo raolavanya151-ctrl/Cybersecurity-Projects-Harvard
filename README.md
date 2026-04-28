@@ -33,12 +33,12 @@ Strong password
 
 A cybersecurity tool that generates strong and random passwords.
 
-Features:
+**Features:**
 - Generates secure random passwords
 - Includes uppercase, lowercase, numbers, and symbols
 - Custom password length
 
-Tech Used:
+**Tech Used:**
 - Python
 - Random module
 - String module
@@ -53,16 +53,17 @@ Generated Password: A@7kL#9xP!2q
 
 A basic cybersecurity simulation that demonstrates how brute force attacks try multiple passwords to gain access.
 
-Features:
+**Features:**
 - Simulates multiple login attempts
 - Demonstrates brute force attack logic
 - Shows success and failure attempts
 
-Tech Used:
+**Tech Used:**
 - Python
 - Time module
-- 
-### Example Output
+
+
+**Example Output:**
 ```
 Trying password: 123456
 Access Denied
