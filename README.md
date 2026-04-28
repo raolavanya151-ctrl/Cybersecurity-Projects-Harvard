@@ -4,11 +4,12 @@ Cybersecurity projects and practical exercises demonstrating knowledge of networ
 ![CS50 Certificate](IMG_2904.jpg)
 
 ## 🧠 Skills Demonstrated
-
 - 🔐 Password Security & Validation  
 - 🧠 Understanding of Brute Force Attacks  
 - ⚙️ Python Scripting for Cybersecurity  
 - 🛡️ Basic Ethical Hacking Concepts  
+
+---
 
 ## Projects
 
@@ -34,37 +35,41 @@ Weak: add special character
 
 Enter password: Hello@123
 Strong password
-
+```
 
 ---
-## 🚀 How to Run
 
-Follow these steps to run the cybersecurity tools locally:
+### 🔐 Password Generator (Python)
 
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/raolavanya151-ctrl/Cybersecurity-Projects-Harvard.git
-cd Cybersecurity-Projects-Harvard
-```
+A cybersecurity tool that generates strong and random passwords.
 
-### 2️⃣ Run the projects
+**Features:**
+- Generates secure random passwords
+- Includes uppercase, lowercase, numbers, and symbols
+- Custom password length
 
-#### 🔐 Password Strength Checker
-```bash
-python password_checker.py
-```
+**Tech Used:**
+- Python
+- Random module
+- String module
 
-#### 🔐 Password Generator
-```bash
-python password_generator.py
-```
+---
 
-#### 🧠 Login Brute Force Simulator
-```bash
-python brute_force_simulator.py
-```
+### 🧠 Login Brute Force Simulator (Python)
 
-### 💡 Requirements
+A basic cybersecurity simulation that demonstrates how brute force attacks try multiple passwords to gain access.
+
+**Features:**
+- Simulates multiple login attempts
+- Demonstrates brute force attack logic
+- Shows success and failure attempts
+
+**Tech Used:**
+- Python
+- Time module
+
+---
+
 ### 🌐 Network Scanner (Python)
 
 A basic cybersecurity tool that scans a target system to identify open ports.
@@ -89,5 +94,4 @@ Port 80: OPEN
 Port 443: OPEN
 
 Scanning complete.
-- Python 3.x installed  
-- Basic knowledge of running Python scripts (optional)
+```
