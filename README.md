@@ -28,3 +28,22 @@ Weak: add special character
 Enter password: Hello@123
 Strong password
 ```
+
+🔐 Password Generator (Python)
+
+A cybersecurity tool that generates strong and random passwords.
+
+Features:
+- Generates secure random passwords
+- Includes uppercase, lowercase, numbers, and symbols
+- Custom password length
+
+Tech Used:
+- Python
+- Random module
+- String module
+
+Example Output:
+
+Enter password length: 12  
+Generated Password: A@7kL#9xP!2q
