@@ -30,7 +30,6 @@ Strong password
 
 
 ---
-
 ## 🚀 How to Run
 
 ### 1️⃣ Clone the repository
