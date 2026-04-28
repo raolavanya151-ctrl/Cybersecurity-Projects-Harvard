@@ -29,7 +29,7 @@ Enter password: Hello@123
 Strong password
 ```
 
-🔐 Password Generator (Python)
+### 🔐 Password Generator (Python)
 
 A cybersecurity tool that generates strong and random passwords.
 
@@ -43,13 +43,13 @@ Tech Used:
 - Random module
 - String module
 
-### Example Output:
+### Example Output
 ```
 Enter password length: 12
 Generated Password: A@7kL#9xP!2q
 ```
 
-💣 Login Brute Force Simulator (Python)
+### 🧠 Login Brute Force Simulator (Python)
 
 A basic cybersecurity simulation that demonstrates how brute force attacks try multiple passwords to gain access.
 
@@ -62,7 +62,7 @@ Tech Used:
 - Python
 - Time module
 - 
-### Example Output:
+### Example Output
 ```
 Trying password: 123456
 Access Denied
