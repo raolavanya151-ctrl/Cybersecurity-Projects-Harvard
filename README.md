@@ -48,3 +48,25 @@ Example Output:
 Enter password length: 12
 Generated Password: A@7kL#9xP!2q
 ```
+
+💣 Login Brute Force Simulator (Python)
+
+A basic cybersecurity simulation that demonstrates how brute force attacks try multiple passwords to gain access.
+
+Features:
+- Simulates multiple login attempts
+- Demonstrates brute force attack logic
+- Shows success and failure attempts
+
+Tech Used:
+- Python
+- Time module
+
+Example Output:
+
+Trying password: 123456
+Access Denied
+Trying password: password
+Access Denied
+Trying password: admin123
+Access Granted!
