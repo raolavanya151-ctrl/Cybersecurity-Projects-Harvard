@@ -32,6 +32,8 @@ Strong password
 ---
 ## 🚀 How to Run
 
+Follow these steps to run the cybersecurity tools locally:
+
 ### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/raolavanya151-ctrl/Cybersecurity-Projects-Harvard.git
@@ -56,4 +58,5 @@ python brute_force_simulator.py
 ```
 
 ### 💡 Requirements
-- Python 3.x installed
+- Python 3.x installed  
+- Basic knowledge of running Python scripts (optional)
