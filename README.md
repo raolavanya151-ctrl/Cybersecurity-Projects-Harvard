@@ -21,8 +21,10 @@ A simple cybersecurity tool that checks whether a password is strong or weak bas
 - Regular Expressions (re module)
 
 **Example Output:**
+```text
 Enter password: Hello123
 Weak: add special character
 
 Enter password: Hello@123
 Strong password
+```
